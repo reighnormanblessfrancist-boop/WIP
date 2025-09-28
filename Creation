@@ -1,0 +1,149 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local MainWindow = Rayfield:CreateWindow({
+   Name = "Hubs 3xpl0itz",
+   Icon = 0,
+   LoadingTitle = "Finding hubs? i got you",
+   LoadingSubtitle = "Thank you. - superbadodoy",
+   ShowText = "Rayfield",
+   Theme = "Amberglow",
+   ToggleUIKeybind = "K",
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "Hubz exploitz folder",
+      FileName = "Hub exploitz"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = "key system",
+      Subtitle = "This is keyless",
+      Note = "All you have to do is Keyless.",
+      FileName = "Hubzexploitz-Filekeyless",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Keyless"}
+   }
+})
+
+local Tab1 = MainWindow:CreateTab("99 Nights in the forest", "tree-pine")
+local Label1 = Tab1:CreateLabel("A popular game you can exploit in.", "check", Color3.fromRGB(55, 223, 195), false)
+local Label2 = Tab1:CreateLabel("(GAME WAS MADE BY CRACKY4)", "check", Color3.fromRGB(0, 255, 0), false)
+local Divider2 = Tab1:CreateDivider()
+local Section1 = Tab1:CreateSection("Keyless hubs")
+local ButtonA = Tab1:CreateButton({
+   Name = "DarkEsc",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkenedEssence/DarkEsc/refs/heads/main/Loader.lua"))()
+   end
+})
+local ButtonB = Tab1:CreateButton({
+   Name = "Kenniel Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/adibhub1/99-nighit-in-forest/refs/heads/main/99%20night%20in%20forest", true))()
+   end
+})
+local ButtonC = Tab1:CreateButton({
+   Name = "Gec hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/NTpCMwn8"))()
+   end
+})
+local ButtonVoid = Tab1:CreateButton({
+   Name = "Voidware",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+   end
+})
+local ButtonStellar = Tab1:CreateButton({
+   Name = "Stellar Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5fc8b948351cbe7b0ad.lua", true))()
+   end
+})
+local ButtonLua = Tab1:CreateButton({
+   Name = "idk what to name this but Lua hub (yeah)",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/XRlYu676/raw", true))()
+   end
+})
+
+local Section2 = Tab1:CreateSection("Keyed")
+local ButtonFlow = Tab1:CreateButton({
+   Name = "Overflow Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/OverflowBGSI/Overflow/refs/heads/main/loader.txt", true))()
+   end
+})
+local ButtonVaren = Tab1:CreateButton({
+   Name = "Varen Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3e1094ef8355fea6fb55a3750393296a.lua", true))()
+   end
+})
+
+local Tab2 = MainWindow:CreateTab("Steal a brainrot", "brain")
+local Label3 = Tab2:CreateLabel("Top 1 Roblox experience game.", "medal", Color3.fromRGB(55, 223, 195), false)
+local Label4 = Tab2:CreateLabel("(GAME WAS CREATED BY SPYDERSAMMY)", "check", Color3.fromRGB(255, 0, 0), false)
+local Divider4 = Tab2:CreateDivider()
+local Section3 = Tab2:CreateSection("Keyless")
+local ButtonJoel = Tab2:CreateButton({
+   Name = "idk what to name this but joel hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/rdx222f/Scripts/refs/heads/main/StealABrainrot.lua", true))()
+   end
+})
+local ButtonLurkin = Tab2:CreateButton({
+   Name = "Lurk hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/egor2078f/Brainrot/refs/heads/main/main.lua", true))()
+   end
+})
+local ButtonStealy = Tab2:CreateButton({
+   Name = "idk what to name this but stealy hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jairoxdhola/Stealabrainrot/refs/heads/main/Stealabrainrot", true))()
+   end
+})
+
+local Section4 = Tab2:CreateSection("Keyed")
+local ButtonScripty = Tab2:CreateButton({
+   Name = "idk what to name this but scripty hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/nf-36/Koronis/refs/heads/main/Scripts/hub.lua", true))()
+   end
+})
+local ParagraphScripty = Tab2:CreateParagraph({
+   Title = "Notice!!",
+   Content = "Scripty hub does not work in SOLARA/XENO!"
+})
+local ButtonStupid = Tab2:CreateButton({
+   Name = "stupid ahh hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/rvYXAy3u", true))()
+   end
+})
+
+local Tab3 = MainWindow:CreateTab("Grow a Garden", "carrot")
+local Label10 = Tab3:CreateLabel("A game where you grow a Garden.", "apple", Color3.fromRGB(55, 223, 195), false)
+local Label11 = Tab3:CreateLabel("(GAME WAS CREATED BY JANDEL)", "check", Color3.fromRGB(255, 255, 255), false)
+local Divider = Tab3:CreateDivider()
+local Section5 = Tab3:CreateSection("Keyless")
+local ButtonToras = Tab3:CreateButton({
+   Name = "Toras hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden", true))()
+   end
+})
+local ButtonH4x = Tab3:CreateButton({
+   Name = "H4xscripts hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader2.lua", true))()
+   end
+})
